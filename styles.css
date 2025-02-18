@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+}
+
+.main-font {
+    font-family: "Source Code Pro", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+  }
+
+  .ubuntu-light {
+    font-family: "Ubuntu", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .ubuntu-regular {
+    font-family: "Ubuntu", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ubuntu-medium {
+    font-family: "Ubuntu", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .ubuntu-bold {
+    font-family: "Ubuntu", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #002147;
+  }
+
+section {
+    margin-bottom: 100px;
+}
+
+#hero {
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    height: 100vh;
+}
+
+.hero-title {
+    padding-top: 25.8vh;
+    font-size: 5vh;
+    text-align: center;
+    color: #002147;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.mountain-img {
+    display: flex;
+    height: 44.5vh;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.reginald-img {
+    width:  9.375vw;
+    height: 24.290220820189276vh;
+    border-radius: 30%;
+}
+
+.myself-container, .contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.myself-container > div, .contact-container > div {
+    margin-bottom: 25px;
+    max-width: 36vw;
+    text-align: center;
+}
+
+hr {
+    border-top: 1px solid #002147;
+    width: 98vw;
+    margin: 0 auto;
+    margin-bottom: 12vh;
+}
+
+.connect-a {
+    color: #002147;
+    font-size: 2vh;
+    padding: 1vh 0.7vw;
+    border: 0.1vh solid #002147;
+    border-radius: 0.5vh;
+    text-decoration: none;
+    background: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
+
+.connect-a:hover {
+    background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  }
+
+#footer {
+    height: 20vh;
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer-container {
+    padding-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-inside-cont {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-inside-cont > div {
+    margin: 0 1.5vw;
+    height: 4vh;
+}
+
+.footer-container div a {
+    text-decoration: none;
+}
+
+.footer-a > svg:hover {
+    width: 2vw;
+    height: 4vh;
+}
